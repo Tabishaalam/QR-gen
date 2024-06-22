@@ -1,21 +1,4 @@
-// function generateQRCode() {
-//     var text = document.getElementById('text').value;
-//     if (text.trim() === '') {
-//         alert('Please enter some text to generate QR Code');
-//         return;
-//     }
-//     var qrContainer = document.getElementById('qrcode');
-//     qrContainer.innerHTML = '';
-//     var qr = new QRious({
-//         element: document.createElement('canvas'),
-//         value: text,
-//         size: 200,
-//         background: 'white',
-//         foreground: 'black',
-//         level: 'H' // Error correction level
-//     });
-//     qrContainer.appendChild(qr.element);
-// }
+
 let a=document.getElementById('text')
 let b=document.getElementById('btn')
 let c=document.getElementById('qrcode') 
